@@ -298,7 +298,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Death_Chicken 1_0: -5589484204031476698
+      Death_Chicken 1_1: -8684894677294276099
+      Death_Chicken 1_2: 6298226707713123407
+      Death_Chicken 1_3: 3066088591952317587
+      Death_Chicken 1_4: -4741730937188987846
+      Death_Chicken 1_5: -9019148863938233265
+      Death_Chicken 1_6: -6116061855507373011
+      Death_Chicken 1_7: -7720715427145424348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

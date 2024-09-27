@@ -298,7 +298,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chicken(Ghost)(1)_0: -3469384930028698260
+      Chicken(Ghost)(1)_1: -1025428714330095541
+      Chicken(Ghost)(1)_2: -9226194421519831
+      Chicken(Ghost)(1)_3: -8299855115303572353
+      Chicken(Ghost)(1)_4: 4339944663218144025
+      Chicken(Ghost)(1)_5: 8734910700450106584
+      Chicken(Ghost)(1)_6: 4480360142804394201
+      Chicken(Ghost)(1)_7: -1031455377721579951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

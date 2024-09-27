@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      New Piskel (21)_0: 6101470820670944748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -298,7 +298,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Injured_Chicken_0: 8241306549379196740
+      Injured_Chicken_1: -3478026407692246706
+      Injured_Chicken_2: -3887163796395788691
+      Injured_Chicken_3: 5124098480127764186
+      Injured_Chicken_4: 1297443643995193344
+      Injured_Chicken_5: 2846923731874538240
+      Injured_Chicken_6: 9221448752792596664
+      Injured_Chicken_7: -7506146022933570188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
