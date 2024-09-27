@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: New Piskel_0
+  m_Name: Outside wall
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -2510476293373519475, guid: f112d030c08f83749af155296b079147, type: 3}
+  m_Sprite: {fileID: 3416150400190533875, guid: b6240830b56e33d41b9f5ff2254a51eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

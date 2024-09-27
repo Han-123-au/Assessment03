@@ -7,17 +7,14 @@ public class Tweener : MonoBehaviour
 
     public void AddTween(Transform target, Vector3 start, Vector3 end, float duration)
     {
-        // 移除同一目标上已存在的Tween，避免重叠运动
         activeTweens.RemoveAll(t => t.Target == target);
 
-        // 创建新的Tween并添加到列表
         Tween newTween = new Tween(target, start, end, Time.time, duration);
         activeTweens.Add(newTween);
     }
 
     void Update()
     {
-        // 遍历并更新所有Tween
         for (int i = activeTweens.Count - 1; i >= 0; i--)
         {
             Tween tween = activeTweens[i];
@@ -29,7 +26,6 @@ public class Tweener : MonoBehaviour
             }
             else
             {
-                // 完成Tween后确保目标处于最终位置
                 tween.Target.position = tween.EndPos;
                 activeTweens.RemoveAt(i);
             }

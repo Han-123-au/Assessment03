@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: New Piskel (13)_0
+  m_Name: Background
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 3313733511368546993, guid: 9bb9042edbb8e774baf95cb8ecbd549d, type: 3}
+  m_Sprite: {fileID: -8527442550737655860, guid: ea58e96d2f0ee44499f625d247e058dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

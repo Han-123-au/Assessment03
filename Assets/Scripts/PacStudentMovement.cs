@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PacStudentMovement : MonoBehaviour
 {
-    public Transform[] waypoints;    // 存储路径点的数组
-    public float speed = 5.0f;       // 移动速度，表示从一个点到另一个点的时间（秒）
+    public Transform[] waypoints;    
+    public float speed = 5.0f;      
     private int currentWaypointIndex = 0;
 
     void Start()
@@ -30,7 +30,6 @@ public class PacStudentMovement : MonoBehaviour
             yield return null;
         }
 
-        // 更新下一个路径点
         currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
         StartCoroutine(MoveToNextWaypoint());
     }
