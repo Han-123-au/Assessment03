@@ -2,57 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PacStudentController : MonoBehaviour
+public class PacStudentMovement : MonoBehaviour
 {
-    private Tweener tweener;
-    private LayerMask wallLayer;  
+    public Transform[] waypoints;    // 存储路径点的数组
+    public float speed = 5.0f;       // 移动速度，表示从一个点到另一个点的时间（秒）
+    private int currentWaypointIndex = 0;
 
     void Start()
     {
-        tweener = GetComponent<Tweener>();
-        if (tweener == null)
+        if (waypoints.Length > 0)
         {
-            Debug.LogError("Tweener component not found on " + gameObject.name);
-        }
-        wallLayer = LayerMask.GetMask("wallLayer"); 
-    }
-
-    void Update()
-    {
-
-        if (tweener == null)
-        {
-            Debug.LogError("Tweener is null");
-            return;
-        }
-        Vector3 startPos = transform.position;
-        Vector3 endPos = startPos;
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            endPos += Vector3.up;
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            endPos += Vector3.down;
-        }
-        else if (Input.GetKeyDown(KeyCode.A))
-        {
-            endPos += Vector3.left;
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            endPos += Vector3.right;
-        }
-
-        if (CanMoveTo(endPos))
-        {
-            tweener.AddTween(transform, startPos, endPos, 0.5f);
+            StartCoroutine(MoveToNextWaypoint());
         }
     }
 
-    bool CanMoveTo(Vector3 targetPos)
+    IEnumerator MoveToNextWaypoint()
     {
-        return !Physics2D.OverlapCircle(targetPos, 0.1f, wallLayer);
+        Vector3 startPosition = transform.position;
+        Vector3 endPosition = waypoints[currentWaypointIndex].position;
+        float journeyLength = Vector3.Distance(startPosition, endPosition);
+        float journeyCompleted = 0.0f;
+
+        while (journeyCompleted < 1.0f)
+        {
+            journeyCompleted += Time.deltaTime / (journeyLength / speed);
+            transform.position = Vector3.Lerp(startPosition, endPosition, journeyCompleted);
+            yield return null;
+        }
+
+        // 更新下一个路径点
+        currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+        StartCoroutine(MoveToNextWaypoint());
     }
 }
