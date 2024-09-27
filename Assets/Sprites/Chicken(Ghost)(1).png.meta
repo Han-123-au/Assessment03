@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: 3bc7de95efa3ff947ae9cd6cb77666f6
+guid: f6ceb2a005eb8d54fa1f52dcf46e39e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1603291472181913768
-    second: New Piskel (3)_0
+      213: -3469384930028698260
+    second: Chicken(Ghost)(1)_0
   - first:
-      213: 1727701513693895514
-    second: New Piskel (3)_1
+      213: -1025428714330095541
+    second: Chicken(Ghost)(1)_1
   - first:
-      213: 6885142304389756897
-    second: New Piskel (3)_2
+      213: -9226194421519831
+    second: Chicken(Ghost)(1)_2
   - first:
-      213: -3920763251539160592
-    second: New Piskel (3)_3
+      213: -8299855115303572353
+    second: Chicken(Ghost)(1)_3
   - first:
-      213: -1694524838324611193
-    second: New Piskel (3)_4
+      213: 4339944663218144025
+    second: Chicken(Ghost)(1)_4
   - first:
-      213: 1066949510724028421
-    second: New Piskel (3)_5
+      213: 8734910700450106584
+    second: Chicken(Ghost)(1)_5
   - first:
-      213: 1400832260309603970
-    second: New Piskel (3)_6
+      213: 4480360142804394201
+    second: Chicken(Ghost)(1)_6
+  - first:
+      213: -1031455377721579951
+    second: Chicken(Ghost)(1)_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (3)_0
+      name: Chicken(Ghost)(1)_0
       rect:
         serializedVersion: 2
-        x: 181
-        y: 1663
-        width: 522
-        height: 730
+        x: 8
+        y: 99
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8571f2196e6ffb9e0800000000000000
-      internalID: -1603291472181913768
+      spriteID: c65cb88a9c44adfc0800000000000000
+      internalID: -3469384930028698260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (3)_1
+      name: Chicken(Ghost)(1)_1
       rect:
         serializedVersion: 2
-        x: 1013
-        y: 1663
-        width: 522
-        height: 730
+        x: 56
+        y: 101
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5b11a97f570af710800000000000000
-      internalID: 1727701513693895514
+      spriteID: b408edb6402f4c1f0800000000000000
+      internalID: -1025428714330095541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (3)_2
+      name: Chicken(Ghost)(1)_2
       rect:
         serializedVersion: 2
-        x: 1897
-        y: 1663
-        width: 522
-        height: 730
+        x: 104
+        y: 99
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e77a216270fc8f50800000000000000
-      internalID: 6885142304389756897
+      spriteID: 92a60e633d83fdff0800000000000000
+      internalID: -9226194421519831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (3)_3
+      name: Chicken(Ghost)(1)_3
       rect:
         serializedVersion: 2
-        x: 155
-        y: 831
-        width: 522
-        height: 730
+        x: 8
+        y: 53
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f15a978896a699c0800000000000000
-      internalID: -3920763251539160592
+      spriteID: f7c2f154fbdf0dc80800000000000000
+      internalID: -8299855115303572353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (3)_4
+      name: Chicken(Ghost)(1)_4
       rect:
         serializedVersion: 2
-        x: 935
-        y: 987
-        width: 730
-        height: 522
+        x: 56
+        y: 51
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 787d59433a6db78e0800000000000000
-      internalID: -1694524838324611193
+      spriteID: 91348fb5da49a3c30800000000000000
+      internalID: 4339944663218144025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (3)_5
+      name: Chicken(Ghost)(1)_5
       rect:
         serializedVersion: 2
-        x: 1663
-        y: 831
-        width: 833
-        height: 522
+        x: 104
+        y: 53
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5088bf35de09ece00800000000000000
-      internalID: 1066949510724028421
+      spriteID: 8dc4615a003a83970800000000000000
+      internalID: 8734910700450106584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (3)_6
+      name: Chicken(Ghost)(1)_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 155
-        width: 729
-        height: 522
+        x: 8
+        y: 3
+        width: 31
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,8 +261,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28659a1d481c07310800000000000000
-      internalID: 1400832260309603970
+      spriteID: 9d0aca9dfcf6d2e30800000000000000
+      internalID: 4480360142804394201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken(Ghost)(1)_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1562d318cc88fa1f0800000000000000
+      internalID: -1031455377721579951
       vertices: []
       indices: 
       edges: []
@@ -274,14 +298,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      New Piskel (3)_0: -1603291472181913768
-      New Piskel (3)_1: 1727701513693895514
-      New Piskel (3)_2: 6885142304389756897
-      New Piskel (3)_3: -3920763251539160592
-      New Piskel (3)_4: -1694524838324611193
-      New Piskel (3)_5: 1066949510724028421
-      New Piskel (3)_6: 1400832260309603970
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
